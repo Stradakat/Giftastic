@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title></title>
+	<meta charset="utf-8">Powered by Giphy</head>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<!-- Custom CSS -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>		
+<body>
+	<div id="wrap">
+		<div class="container">
+			<h1 class="text-center">Car Manufacturer Random Gifs</h1>
+			<!-- Show car manufacturer logos and buttons. -->
+			<div class="row">
+				<div class="col-md-12" id="carManufacturersButtons">
+				</div>
+			</div>
+			<!-- Button to add another car manufacturer -->
+			<div class="row">
+				<div class="col-md-12">
+				  <form id="carManufacturerForm">
+				    <label for="inputCarManufacturer">Add a Car Manufacturer</label>
+				    <input type="text" id="inputCarManufacturer"><br>
+				    <input id="addCarManufacturer" type="submit" value="Add A Car Manufacturer" placeholder="Car Manufacturer">
+				  </form>
+				</div>
+			</div>
+			<!-- Show pictures after search -->
+			<div class="row">
+				<div id="carManufacturersGifs" class="col-md-12">
+					
+				</div>
+			</div>
+		</div>
+	</div>		
+    <!-- Added link to the jQuery Library -->
+	<script src="https://code.jquery.com/jquery-2.2.3.js" integrity="sha256-laXWtGydpwqJ8JA+X9x2miwmaiKhn8tVmOVEigRNtP4=" crossorigin="anonymous"></script>
+	<script src="assets/javascript/gif.js"></script>	
+</body>
+</html>
