@@ -1,4 +1,4 @@
-var athletesArray = ["Kobe Bryant", "Michael Jordan", "Larry Bird", "Steve Young", "Troy Aikman"];
+var athletesArray = ["Tom Brady", "Michael Jordan", "Connor McGregor", "Serena Williams", "Christiano Ronaldo"];
 
 $(document).ready(function() {
     for (var i = 0; i < athletesArray.length; i++) {
